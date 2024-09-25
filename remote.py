@@ -16,7 +16,7 @@ yellow = '\033[1;33m'
 
 
 
-HOST = 'localhost'
+HOST = input('enter host: ')
 PORT = 2222
 
 clientList = []
