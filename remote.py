@@ -17,6 +17,8 @@ yellow = '\033[1;33m'
 
 
 HOST = input('enter host: ')
+if not HOST:
+    HOST=''
 PORT = 2222
 
 clientList = []
